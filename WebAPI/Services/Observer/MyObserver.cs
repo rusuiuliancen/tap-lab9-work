@@ -1,6 +1,6 @@
-﻿using WebAPI.Interfaces;
+﻿using WebAPI.Interfaces.Observer;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.Observer
 {
     public class MyObserver : IObserver
     {

@@ -1,8 +1,12 @@
 
 using DataLayer;
 using DataLayer.Repository;
-using WebAPI.Interfaces;
-using WebAPI.Services;
+using WebAPI.Interfaces.Adapter;
+using WebAPI.Interfaces.Factory;
+using WebAPI.Interfaces.Singleton;
+using WebAPI.Services.Adapter;
+using WebAPI.Services.Factory;
+using WebAPI.Services.Singleton;
 
 namespace WebAPI
 {

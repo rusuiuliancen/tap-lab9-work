@@ -1,7 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Interfaces;
+using WebAPI.Interfaces.Adapter;
+using WebAPI.Interfaces.Factory;
+using WebAPI.Interfaces.Singleton;
+using WebAPI.Interfaces.Strategy;
 using WebAPI.Services;
+using WebAPI.Services.Observer;
+using WebAPI.Services.Strategy;
 
 namespace WebAPI.Controllers
 {

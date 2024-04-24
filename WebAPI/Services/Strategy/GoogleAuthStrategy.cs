@@ -1,8 +1,8 @@
-﻿using WebAPI.Interfaces;
+﻿using WebAPI.Interfaces.Strategy;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.Strategy
 {
-    public class GoogleAuthStrategy: IStrategy
+    public class GoogleAuthStrategy : IStrategy
     {
         public string DoOperation()
         {

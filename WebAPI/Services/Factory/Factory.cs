@@ -1,6 +1,6 @@
-﻿using WebAPI.Interfaces;
+﻿using WebAPI.Interfaces.Factory;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.Factory
 {
     public class Factory : IFactory
     {

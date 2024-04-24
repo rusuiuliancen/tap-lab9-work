@@ -1,4 +1,4 @@
-﻿namespace WebAPI.Interfaces
+﻿namespace WebAPI.Interfaces.Adapter
 {
     public interface ITemperature
     {

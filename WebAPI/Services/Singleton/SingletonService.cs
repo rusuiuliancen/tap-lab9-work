@@ -1,8 +1,8 @@
-﻿using WebAPI.Interfaces;
+﻿using WebAPI.Interfaces.Singleton;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.Singleton
 {
-    public class SingletonService: ISingletonService
+    public class SingletonService : ISingletonService
     {
         private readonly DateTime _instanceCreationDate;
         public SingletonService()

@@ -1,6 +1,6 @@
-﻿using WebAPI.Interfaces;
+﻿using WebAPI.Interfaces.Observer;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.Observer
 {
     public class MySubject : ISubject
     {
@@ -23,7 +23,7 @@ namespace WebAPI.Services
             foreach (var observer in _observers)
             {
                 observer.Update(this);
-            } 
+            }
         }
     }
 }

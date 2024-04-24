@@ -1,6 +1,6 @@
-﻿using WebAPI.Interfaces;
+﻿using WebAPI.Interfaces.Adapter;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.Adapter
 {
     public class MyTempModule : ITemperature
     {

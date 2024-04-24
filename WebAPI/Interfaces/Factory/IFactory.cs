@@ -1,4 +1,4 @@
-﻿namespace WebAPI.Interfaces
+﻿namespace WebAPI.Interfaces.Factory
 {
     public interface IFactory
     {

@@ -1,8 +1,8 @@
-﻿using WebAPI.Interfaces;
+﻿using WebAPI.Interfaces.Strategy;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.Strategy
 {
-    public class AppleAuthStrategy: IStrategy
+    public class AppleAuthStrategy : IStrategy
     {
         public string DoOperation()
         {

@@ -1,4 +1,4 @@
-﻿namespace WebAPI.Services
+﻿namespace WebAPI.Services.Adapter
 {
     public class LegacyTempService
     {
